@@ -36,7 +36,7 @@ PM_START_TEXT = """
 ╱▔▔▔▔┊┊┊┊▔▔▔▔╲
 HOI    {}, MY NAME IS {} !
 
-I AM A GROUP MANAGER BOT MAINTAINED BY 
+I AM A GROUP MANAGER BOT OWNED BY 
 
 [THIS LEGEND](tg://user?id={}).
 
