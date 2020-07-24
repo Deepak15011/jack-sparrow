@@ -46,7 +46,7 @@ I AM COMPLETELY OPEN SOURCE
 
 MY SOURCE CODE IS AVAILABLE TO YOU
 
-[HERE](https://github.com/leobrownlee/phantom)
+
 
 """
 
@@ -158,7 +158,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username))]]))
-
+ keyboard = [[InlineKeyboardButton(text="🤝Help",callback_data="help_back"),InlineKeyboardButton(text="🛡Creator🛡",url="https://t.me/Light_bring_er")]]
 
     else:
         update.effective_message.reply_text("Yo, whadup?🤧")
